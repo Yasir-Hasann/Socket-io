@@ -1,0 +1,23 @@
+{
+  "name": "socket-io",
+  "version": "1.0.0",
+  "description": "Socket.io Implementation",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "<https://github.com/Yasir-Hasann>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.4"
+  }
+}
